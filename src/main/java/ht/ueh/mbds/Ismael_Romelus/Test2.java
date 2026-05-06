@@ -16,7 +16,7 @@ public class Test2 {
                 .build();
 
         ChatRequest requete = ChatRequest.builder()
-                .messages(UserMessage.from("Quelle heure est-il eh haiti ?"))
+                .messages(UserMessage.from("Je dois partir dans 2 jours à Paris. Est-ce que je dois mettre un parapluie dans mes valises ?"))
                 .build();
 
         ChatResponse reponse = modele.chat(requete);

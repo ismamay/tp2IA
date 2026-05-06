@@ -1,5 +1,5 @@
 package ht.ueh.mbds.Ismael_Romelus;
 
-public interface AssistanceMeteo {
+public interface AssistantMeteo {
     String chat(String userMessage);
 }
